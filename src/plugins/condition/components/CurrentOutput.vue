@@ -22,12 +22,13 @@
 
 <template>
 <section id="current-output"
-         class="c-cs__current-output">
+         class="c-cs__current-output"
+>
     <div class="c-cs__header c-section__header">
         <div class="c-cs__header c-section__label">Current Output</div>
     </div>
     <div class="c-cs__current-output-value">
-        {{ condition.definition.output }}
+        {{ condition.configuration.output }}
     </div>
 </section>
 </template>
